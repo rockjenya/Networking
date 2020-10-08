@@ -124,7 +124,7 @@ int main()
         }
         cout << "Clien> " << string(buf, numbites) << endl;
     }
-     //Close soket
+    //Close soket
     close(sock);
     return 0;
 }
